@@ -5,7 +5,7 @@ html{
   font-family: sans-selrif; /*文字のフォントをゴシックに*/
 }
 html * {
-  bonx-sizing: border-box;å
+  bonx-sizing: border-box;
 }
 body{
    margin: 0 0 0 0;
@@ -58,13 +58,7 @@ video{ /* 動画のサイズをボックスの幅に合わせて調整する，�
   padding: 20px 8px;
 }
 /*menu-itemの子要素のmenu-photoとmenu-textが横に並ぶ*/
-.article-photo{
-  margin-right: 16px;
-  flex: 1 1 auto;　 /*横幅を伸縮させたいものにはこう書く*/
-}
-.article-text{
-  flex: 0 0 336px;　/*横幅を固定したいものにはこう書く，横幅は336px指定*/
-}
+
 /*全てのページに適用　ヘッダー*/
 .logo{
   margin: 50px 0 40px 0;
